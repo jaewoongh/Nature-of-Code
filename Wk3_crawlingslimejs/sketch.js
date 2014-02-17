@@ -35,7 +35,7 @@ function setup() {
 function draw() {
 	background(255);
 	textAlign(LEFT); textSize(14); fill(0); stroke(0); strokeWeight(0);
-	text("Hit [a] to add a slime, [r] to remove a slime into a slimy slime stack", 12, 21);
+	text("Hit [a] to add a slime, [r] to remove a slime", 12, 21);
 
 	for(var i = 0; i < slimes.length; i++) {
 		slimes[i].crawl();
